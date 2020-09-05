@@ -2,7 +2,7 @@
 
 This index references a number of the more significant public corpora (data sets) that may contain both valid and invalid, real and synthetic PDF files, reflecting the realities of processing PDF files 'from the wild'. In addition, targeted test suites for specific PDF features or ISO subsets of PDF are also listed. It is not intended to be a list of every website where PDFs may be obtained.
 
-This informative resource is freely provided to all interested PDF developers, end-users and researchers. It does not reflect endorsement of any organization, website or corpus. If you currate, maintain or identify other corpora that you believe will be useful to the PDF industry and is freely available please contact us. Some corpora may require registration in order to access.
+This informative resource is freely provided to all interested PDF developers, end-users and researchers. It does not reflect endorsement of any organization, website or corpus. If you currate, maintain or identify other corpora that you believe might be useful to the PDF industry and is freely available please contact us. Some corpora may require registration in order to access.
 
 
 **CAUTION: like any file downloaded from the internet, good computer security and hygenie practices should always be employed as some of these corpora contain files that are malicious! Use at your own risk!**
@@ -19,18 +19,12 @@ This is a very well-studied and large corpus created in 2010, comprising almost 
 
 The Common Crawl corpus contains petabytes of data collected since 2008 and is the core data behind the Wayback Machine (https://web.archive.org/). It contains raw web page data, extracted metadata and text extractions and, of course, millions and millions of PDF files gathered from across the web. 
 
-### SafeDocs re-fetch CommonCrawl (Dec 2019)
-- https://corpora.tika.apache.org/base/docs/commoncrawl3_refetched/
-
-Critical information about the limitations and issues with PDFs in CommonCrawl can be found in "*Building a Wide Reach Corpus for Secure Parser Development*" by Timothy Allison, Wayne Burke, Chris Mattmann, Anastasia Menshikova, Philip Southam, Ryan Stonebraker and Virisha Timmaraju (NASA Jet Propulsion Laboratory) from http://spw20.langsec.org/papers.html. 
-As a result of this work, a re-fetch of more than 22,000 truncated PDF files in the December 2019 CommonCrawl dataset is currated at the above URL. 
-
 
 ## SafeDocs "Issue Tracker" Corpus
 - https://corpora.tika.apache.org/base/docs/bug_trackers/
 - https://corpora.tika.apache.org/base/packaged/pdfs/ (individual ZIP files for data from each open-source PDF processor issue tracker)
 
-A reasonably-sized corpus created by a targeted deep-crawl of various issue trackers (e.g. Bugzilla, JIRA, GitHub) to extract PDF attachments on public bug reports for various well-known open-source PDF-aware implementations. These PDFs are not directly discoverable via standard internet search engines. By it's very nature, this large corpus has a higher than normal quantity of unusual and malformed PDFs.
+A reasonably-sized corpus (>20K files, ~16GB) created by a targeted deep-crawl of various issue trackers (e.g. Bugzilla, JIRA, GitHub) to extract PDF attachments on public bug reports for various well-known open-source PDF-aware implementations. These PDFs are not directly discoverable via standard internet search engines. By it's very nature, this large corpus has a higher than normal quantity of unusual and malformed PDFs.
 
 
 ## FoxHex0ne Mutations
@@ -68,7 +62,7 @@ The veraPDF test corpus targets the ISO 19005 family of PDF/A specifications (Ve
 ### Isartor Test Suite for PDF/A-1b
 - https://www.pdfa.org/resource/isartor-test-suite/
 
-### Bavaria Test Suite for PDF/A
+This test suite comprises a set of files that are used to check the conformance with PDF/A-1. More precisely, the Isartor test suite can be used to "validate the validators": It deliberately violates the requirements of PDF/A-1 in a systematic way in order to check whether PDF/A-1 validation software actually finds the violations.
 
 
 ## BFO PDF/A Test Suite
@@ -88,15 +82,18 @@ The Ghent Output Suite (currently v5.0) has been created for testing PDF process
 
 To serve as a reference for software developers and practitioners interested in best-practices for creating tagged and accessible PDF files, the PDF Association's PDF/UA Competence Center has posted a set of 10 PDF documents conforming to ISO 14289-1 PDF/UA-1.
 
+
 ## Matterhorn Protocol 1.02
 - https://www.pdfa.org/resource/the-matterhorn-protocol-1-02/
 
-
+ The PDF Association's PDF/UA Competence Center developed the Matterhorn Protocol as a list of all the possible ways to fail PDF/UA. Following the requirements of PDF/UA, the document consists of 31 checkpoints comprised of 136 Failure Conditions. The Matterhorn Protocol 1.02 (PDF, 339kB, 2014-06-26) is delivered as a PDF file conforming to PDF/UA-1 (ISO 14289-1) and to PDF/A-2a (ISO 19005-2) and is a reference-quality PDF/UA file.
+ 
 
 ## Altona Test Suite
 - http://www.eci.org/en/downloads
 
 The Altona Test Suite is a set of highly technical PDF files and patches specifically designed for testing ISO 15930 PDF/X compliance and color accuracy including transparency blending, font handling, smooth shades, gray balance, overprinting, etc. 
+
 
 ## 3D PDF Consortium Showcase
 - http://3dpdfconsortium.org/showcase/
@@ -150,6 +147,14 @@ Scanned books and other publications can be downloaded in PDF format. Note that 
 - https://www.ilo.org/public/libdoc/ilo/ILO-SR/
 
 This is a corpus of approximately 730 legacy PDF documents (from 2008-), however it has somewhat limited variabilty in PDF technical and syntactic constructs.
+
+
+## Mikal's "pdfdb"
+ 
+- http://www.stillhq.com/pdfdb/db.html (dead link)
+- https://www.madebymikal.com/pdfdb/db.html (also a dead link)
+
+A database referenced from StackOverflow (https://stackoverflow.com/questions/14386393/pdf-specification-compliance-testing-sample-files) that is no longer available.
 
 
 # *Legal*
