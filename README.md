@@ -21,10 +21,13 @@ The Common Crawl corpus contains petabytes of data collected since 2008 and is t
 
 
 ## SafeDocs "Issue Tracker" Corpus
-- https://corpora.tika.apache.org/base/docs/bug_trackers/
-- https://corpora.tika.apache.org/base/packaged/pdfs/ (individual ZIP files for data from each open-source PDF processor issue tracker)
+- Individual PDFs can be downloaded from the Apache Tika regression test server: https://corpora.tika.apache.org/base/docs/bug_trackers/
+- The November 2020 update conveniently pre-packages all PDFs into six compressed tarballs (.tgz files): https://corpora.tika.apache.org/base/packaged/pdfs/
+- The initial release from Sept 2020 is also still available from https://corpora.tika.apache.org/base/packaged/pdfs/archive/
 
-A reasonably-sized corpus (>20K files, ~16GB) created by a targeted deep-crawl of various issue trackers (e.g. Bugzilla, JIRA, GitHub) to extract PDF attachments on public bug reports for various well-known open-source PDF-aware implementations. These PDFs are not directly discoverable via standard internet search engines. By it's very nature, this large corpus has a higher than normal quantity of unusual and malformed PDFs.
+An outcome of the DARPA-funded SafeDocs research program, a large and growing corpus (>32K files, >31GB) collated by targeted deep-crawls of various issue trackers (e.g. Bugzilla, JIRA, GitHub) to extract PDF attachments on public bug reports for various well-known open-source PDF-aware implementations. These PDFs are not directly discoverable via standard internet search engines. By it's very nature, this corpus has a higher than normal quantity of unusual and malformed PDFs. Further technical details of this corpus can be found at https://www.pdfa.org/a-new-stressful-pdf-corpus/ and https://www.pdfa.org/stressful-pdf-corpus-grows/ as well as README files on the Apache Tika regression server.
+
+**NOTE: this unsanitized collated corpus contains a few PDFs that are known to trigger certain anti-malware/anti-virus programs.**
 
 
 ## FoxHex0ne Mutations
