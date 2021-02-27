@@ -33,7 +33,7 @@ An outcome of the DARPA-funded SafeDocs research program, a large and growing co
 ## FoxHex0ne Mutations
 - https://foxhex0ne.com/
 
-A set of mutated PDFs (and other document formats) created via mutation-based fuzzing. See also http://foxhex0ne.blogspot.com/2020/01/lets-continue-with-corpus-distillation.html.
+A set of mutated PDFs (and other document formats) created via mutation-based fuzzing. See also ~http://foxhex0ne.blogspot.com/2020/01/lets-continue-with-corpus-distillation.html~ https://web.archive.org/web/20200325183758/http://foxhex0ne.blogspot.com/2020/01/lets-continue-with-corpus-distillation.html.
 
 
 ## OpenPreserve Foundation Format Corpus
