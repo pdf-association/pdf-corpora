@@ -5,7 +5,7 @@ This index references a number of the more significant public corpora (data sets
 This informative resource is freely provided to all interested PDF developers, end-users and researchers. It does not reflect endorsement of any organization, website or corpus. If you currate, maintain or identify other corpora that you believe might be useful to the PDF industry and is freely available please contact us. Some corpora may require registration in order to access.
 
 
-**CAUTION: like any file downloaded from the internet, good computer security and hygenie practices should always be employed as some of these corpora contain files that are malicious! Use at your own risk!**
+**CAUTION: like any file downloaded from the internet, good computer security and hygiene practices should always be employed as some of these corpora contain files that are malicious! Use at your own risk!**
 
 
 ## GovDocs1
