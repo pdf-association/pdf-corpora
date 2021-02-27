@@ -160,6 +160,13 @@ This is a corpus of approximately 730 legacy PDF documents (from 2008-), however
 A database referenced from StackOverflow (https://stackoverflow.com/questions/14386393/pdf-specification-compliance-testing-sample-files) that is no longer available.
 
 
+## Artifex MuPDF Public Test Corpus
+ 
+- http://git.ghostscript.com/?p=tests.git;a=summary
+
+Public test corpus for Ghostscript/MuPDF, maintained by Artifex (https://mupdf.com/).
+
+
 # *Legal*
 In accordance with Title 17 U.S.C. Section 107, the material in this document is distributed without profit to those who have an interest in understanding interoperabiltity of PDF files, including for research and educational purposes. If you wish to use the copyrighted material of others that is referenced in this document for purposes of your own that go beyond 'fair use', it is your responsibility to obtain permission from the relevant copyright owner.
 
