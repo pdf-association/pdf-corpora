@@ -167,6 +167,16 @@ A database referenced from StackOverflow (https://stackoverflow.com/questions/14
 Public test corpus for Ghostscript/MuPDF, maintained by Artifex (https://mupdf.com/).
 
 
+## Qiqqa's "Evil Base" Test Corpus
+ 
+- https://github.com/GerHobbelt/Evil-PDF-Library-for-Qiqqa
+
+Test corpus used by the [Qiqqa PDF document management software](https://github.com/jimmejardine/qiqqa-open-source) for testing various PDF-centric processes (metadata extraction, text extraction and OCR for meta-search & ~-research, page rendering/viewing, ...).
+
+**WARNING: Be aware that this corpus includes *malformed*, *invalid* and *malicious* PDFs**, which serve as an acid test for robustness testing production-level PDF processors. *Cave canem.*
+
+
+
 # *Legal*
 In accordance with Title 17 U.S.C. Section 107, the material in this document is distributed without profit to those who have an interest in understanding interoperabiltity of PDF files, including for research and educational purposes. If you wish to use the copyrighted material of others that is referenced in this document for purposes of your own that go beyond 'fair use', it is your responsibility to obtain permission from the relevant copyright owner.
 
