@@ -5,7 +5,7 @@ This index references a number of the more significant public corpora (data sets
 This informative resource is freely provided to all interested PDF developers, end-users and researchers. It does not reflect endorsement of any organization, website or corpus. If you currate, maintain or identify other corpora that you believe might be useful to the PDF industry and is freely available please contact us. Some corpora may require registration in order to access.
 
 
-**CAUTION: like any file downloaded from the internet, good computer security and hygenie practices should always be employed as some of these corpora contain files that are malicious! Use at your own risk!**
+**CAUTION: like any file downloaded from the internet, good computer security and hygiene practices should always be employed as some of these corpora contain files that are malicious! Use at your own risk!**
 
 
 ## GovDocs1
@@ -33,7 +33,7 @@ An outcome of the DARPA-funded SafeDocs research program, a large and growing co
 ## FoxHex0ne Mutations
 - https://foxhex0ne.com/
 
-A set of mutated PDFs (and other document formats) created via mutation-based fuzzing. See also http://foxhex0ne.blogspot.com/2020/01/lets-continue-with-corpus-distillation.html.
+A set of mutated PDFs (and other document formats) created via mutation-based fuzzing. See also ~http://foxhex0ne.blogspot.com/2020/01/lets-continue-with-corpus-distillation.html~ https://web.archive.org/web/20200325183758/http://foxhex0ne.blogspot.com/2020/01/lets-continue-with-corpus-distillation.html.
 
 
 ## OpenPreserve Foundation Format Corpus
@@ -158,6 +158,23 @@ This is a corpus of approximately 730 legacy PDF documents (from 2008-), however
 - https://www.madebymikal.com/pdfdb/db.html (also a dead link)
 
 A database referenced from StackOverflow (https://stackoverflow.com/questions/14386393/pdf-specification-compliance-testing-sample-files) that is no longer available.
+
+
+## Artifex MuPDF Public Test Corpus
+ 
+- http://git.ghostscript.com/?p=tests.git;a=summary
+
+Public test corpus for Ghostscript/MuPDF, maintained by Artifex (https://mupdf.com/).
+
+
+## Qiqqa's "Evil Base" Test Corpus
+ 
+- https://github.com/GerHobbelt/Evil-PDF-Library-for-Qiqqa
+
+Test corpus used by the [Qiqqa PDF document management software](https://github.com/jimmejardine/qiqqa-open-source) for testing various PDF-centric processes (metadata extraction, text extraction and OCR for meta-search & ~-research, page rendering/viewing, ...).
+
+**WARNING: Be aware that this corpus includes *malformed*, *invalid* and *malicious* PDFs**, which serve as an acid test for robustness testing production-level PDF processors. *Cave canem.*
+
 
 
 # *Legal*
