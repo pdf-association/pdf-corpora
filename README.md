@@ -19,6 +19,10 @@ This is a very well-studied and large corpus created in 2010, comprising almost 
 
 The Common Crawl corpus contains petabytes of data collected since 2008 and is the core data behind the Wayback Machine (https://web.archive.org/). It contains raw web page data, extracted metadata and text extractions and, of course, millions and millions of PDF files gathered from across the web. 
 
+NOTE: Based on published SafeDocs research, many PDFs in the CommonCrawl database are known to be truncated. See: T. Allison et al., “*Building a Wide Reach Corpus*,” in LangSec 2020, May 2020. http://spw20.langsec.org/papers/corpus_LangSec2020.pdf:
+
+> Common Crawl truncates files at 1 MB. If researchers require intact files, they must re-pull truncated files from the original websites. In the December, 2019 crawl, nearly 430,000 PDFs (22%) were truncated.
+
 
 ## SafeDocs "Issue Tracker" Corpus
 - Individual PDFs can be downloaded from the Apache Tika regression test server: https://corpora.tika.apache.org/base/docs/bug_trackers/
