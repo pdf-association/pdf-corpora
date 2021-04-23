@@ -179,7 +179,20 @@ Test corpus used by the [Qiqqa PDF document management software](https://github.
 
 **WARNING: Be aware that this corpus includes *malformed*, *invalid* and *malicious* PDFs**, which serve as an acid test for robustness testing production-level PDF processors. *Cave canem.*
 
+# *Other formats*
 
+Internally PDF supports many so-called "nested formats", such as JPEG, JPEG 2000, JBIG2, ICC and font programs, as well as conversion from other formats. Thus sources of corpora in other formats may also be of interest to the broader PDF community. Note that PDF can and does technically limit the scope of what certain nested formats can contain, so **do not** assume that all files in these corpora are valid for nesting inside PDF! Always refer to the latest PDF specification \([ISO 32000-2, PDF 2.0](https://www.iso.org/standard/75839.html)) for all technical requirements. 
+
+##  PRImA Labs
+The University of Salford Pattern Recognition & Image Analysis Research Lab (PRImA) provide many image-based data sets "_ranging from historical books and newspapers to contemporary documents_", that have been "_collected, ground-truthed and organised \[as] a number of datasets which are available for research and/or personal use_".
+
+- https://www.primaresearch.org/
+
+## IEEE DataPort
+
+The IEEE DataPort contains some open access data sets. Although mainly focused on machine learning, many data sets are image-based.
+
+- https://ieee-dataport.org/datasets
 
 # *Legal*
 In accordance with Title 17 U.S.C. Section 107, the material in this document is distributed without profit to those who have an interest in understanding interoperabiltity of PDF files, including for research and educational purposes. If you wish to use the copyrighted material of others that is referenced in this document for purposes of your own that go beyond 'fair use', it is your responsibility to obtain permission from the relevant copyright owner.
