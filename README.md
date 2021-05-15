@@ -1,5 +1,11 @@
 # **PDF Corpora**
 
+![LinkedIn](https://img.shields.io/static/v1?style=social&label=LinkedIn&logo=linkedin&message=PDF-Association)
+&nbsp;&nbsp;&nbsp;
+![Twitter Follow](https://img.shields.io/twitter/follow/PDFAssociation?style=social)
+&nbsp;&nbsp;&nbsp;
+![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCJL_M0VH2lm65gvGVarUTKQ?style=social)
+
 This index references a number of the more significant public corpora (data sets) that may contain both valid and invalid, real and synthetic PDF files, reflecting the realities of processing PDF files 'from the wild'. In addition, targeted test suites for specific PDF features or ISO subsets of PDF are also listed. It is not intended to be a list of every website where PDFs may be obtained.
 
 This informative resource is freely provided to all interested PDF developers, end-users and researchers. It does not reflect endorsement of any organization, website or corpus. If you currate, maintain or identify other corpora that you believe might be useful to the PDF industry and is freely available please contact us. Some corpora may require registration in order to access.
@@ -11,13 +17,13 @@ This informative resource is freely provided to all interested PDF developers, e
 ## GovDocs1
 - https://digitalcorpora.org/corpora/files
 
-This is a very well-studied and large corpus created in 2010, comprising almost 1 million documents from the USA .gov TLD, of which more than 231,000 are PDF documents. The above URL provides lots of detailed information and references. 
+This is a very well-studied and large corpus created in 2010, comprising almost 1 million documents from the USA .gov TLD, of which more than 231,000 are PDF documents. The above URL provides lots of detailed information and references.
 
 
 ## CommonCrawl.org
 - http://commoncrawl.org/
 
-The Common Crawl corpus contains petabytes of data collected since 2008 and is the core data behind the Wayback Machine (https://web.archive.org/). It contains raw web page data, extracted metadata and text extractions and, of course, millions and millions of PDF files gathered from across the web. 
+The Common Crawl corpus contains petabytes of data collected since 2008 and is the core data behind the Wayback Machine (https://web.archive.org/). It contains raw web page data, extracted metadata and text extractions and, of course, millions and millions of PDF files gathered from across the web.
 
 NOTE: Based on published SafeDocs research, many PDFs in the CommonCrawl database are known to be truncated. See: T. Allison et al., “*Building a Wide Reach Corpus*,” in LangSec 2020, May 2020. http://spw20.langsec.org/papers/corpus_LangSec2020.pdf:
 
@@ -43,7 +49,7 @@ A set of mutated PDFs (and other document formats) created via mutation-based fu
 ## OpenPreserve Foundation Format Corpus
 - https://github.com/openpreserve/format-corpus
 
-The is a digitial preservation focused corpus which is openly-licensed, and covers a wide range of formats and creation tools. 
+The is a digitial preservation focused corpus which is openly-licensed, and covers a wide range of formats and creation tools.
 
 ### The Archivist's PDF Cabinet of Horrors
 - https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors
@@ -94,12 +100,12 @@ To serve as a reference for software developers and practitioners interested in 
 - https://www.pdfa.org/resource/the-matterhorn-protocol-1-02/
 
  The PDF Association's PDF/UA Competence Center developed the Matterhorn Protocol as a list of all the possible ways to fail PDF/UA. Following the requirements of PDF/UA, the document consists of 31 checkpoints comprised of 136 Failure Conditions. The Matterhorn Protocol 1.02 (PDF, 339kB, 2014-06-26) is delivered as a PDF file conforming to PDF/UA-1 (ISO 14289-1) and to PDF/A-2a (ISO 19005-2) and is a reference-quality PDF/UA file.
- 
+
 
 ## Altona Test Suite
 - http://www.eci.org/en/downloads
 
-The Altona Test Suite is a set of highly technical PDF files and patches specifically designed for testing ISO 15930 PDF/X compliance and color accuracy including transparency blending, font handling, smooth shades, gray balance, overprinting, etc. 
+The Altona Test Suite is a set of highly technical PDF files and patches specifically designed for testing ISO 15930 PDF/X compliance and color accuracy including transparency blending, font handling, smooth shades, gray balance, overprinting, etc.
 
 
 ## 3D PDF Consortium Showcase
@@ -141,7 +147,7 @@ The freely available PDF-TREX dataset is a standard dataset in the TREX (Table R
 ##  US National Library of Medicine - National Institutes of Health
 - https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/
 
-A collection of scientific PDF publications included in the PubMed Central Open Access Subset (commercial use collection). 
+A collection of scientific PDF publications included in the PubMed Central Open Access Subset (commercial use collection).
 
 
 ## OpenLibrary.org
@@ -157,7 +163,7 @@ This is a corpus of approximately 730 legacy PDF documents (from 2008-), however
 
 
 ## Mikal's "pdfdb"
- 
+
 - http://www.stillhq.com/pdfdb/db.html (dead link)
 - https://www.madebymikal.com/pdfdb/db.html (also a dead link)
 
@@ -165,14 +171,14 @@ A database referenced from StackOverflow (https://stackoverflow.com/questions/14
 
 
 ## Artifex MuPDF Public Test Corpus
- 
+
 - http://git.ghostscript.com/?p=tests.git;a=summary
 
 Public test corpus for Ghostscript/MuPDF, maintained by Artifex (https://mupdf.com/).
 
 
 ## Qiqqa's "Evil Base" Test Corpus
- 
+
 - https://github.com/GerHobbelt/Evil-PDF-Library-for-Qiqqa
 
 Test corpus used by the [Qiqqa PDF document management software](https://github.com/jimmejardine/qiqqa-open-source) for testing various PDF-centric processes (metadata extraction, text extraction and OCR for meta-search & ~-research, page rendering/viewing, ...).
@@ -181,7 +187,7 @@ Test corpus used by the [Qiqqa PDF document management software](https://github.
 
 # *Other formats*
 
-Internally PDF supports many so-called "nested formats", such as JPEG, JPEG 2000, JBIG2, ICC and font programs, as well as conversion from other formats. Thus sources of corpora in other formats may also be of interest to the broader PDF community. Note that PDF can and does technically limit the scope of what certain nested formats can contain, so **do not** assume that all files in these corpora are valid for nesting inside PDF! Always refer to the latest PDF specification \([ISO 32000-2, PDF 2.0](https://www.iso.org/standard/75839.html)) for all technical requirements. 
+Internally PDF supports many so-called "nested formats", such as JPEG, JPEG 2000, JBIG2, ICC and font programs, as well as conversion from other formats. Thus sources of corpora in other formats may also be of interest to the broader PDF community. Note that PDF can and does technically limit the scope of what certain nested formats can contain, so **do not** assume that all files in these corpora are valid for nesting inside PDF! Always refer to the latest PDF specification \([ISO 32000-2, PDF 2.0](https://www.iso.org/standard/75839.html)) for all technical requirements.
 
 ##  PRImA Labs
 The University of Salford Pattern Recognition & Image Analysis Research Lab (PRImA) provide many image-based data sets "_ranging from historical books and newspapers to contemporary documents_", that have been "_collected, ground-truthed and organised \[as] a number of datasets which are available for research and/or personal use_".
@@ -197,4 +203,4 @@ The IEEE DataPort contains some open access data sets. Although mainly focused o
 # *Legal*
 In accordance with Title 17 U.S.C. Section 107, the material in this document is distributed without profit to those who have an interest in understanding interoperabiltity of PDF files, including for research and educational purposes. If you wish to use the copyrighted material of others that is referenced in this document for purposes of your own that go beyond 'fair use', it is your responsibility to obtain permission from the relevant copyright owner.
 
-The PDF Association does not warrant the accuracy, timeliness or completeness of the information contained in this document. All copyright and trademarks remain with their respective owners. If you have a particular complaint about something you’ve read here, please contact us. 
+The PDF Association does not warrant the accuracy, timeliness or completeness of the information contained in this document. All copyright and trademarks remain with their respective owners. If you have a particular complaint about something you’ve read here, please contact us.
