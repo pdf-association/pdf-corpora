@@ -60,8 +60,8 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at the
-[PDF Association](mailto:info@pdfa.org).
+reported to the community leaders responsible for enforcement at [code-of-conduct@pdfa.org](mailto:code-of-conduct@pdfa.org)
+or directly to the CEO or Chair of the Board of Directors.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
