@@ -13,11 +13,12 @@ This informative resource is freely provided to all interested PDF developers, e
 
 **CAUTION: like any file downloaded from the internet, good computer security and hygiene practices should always be employed as some of these corpora contain files that are malicious! Use at your own risk!**
 
+For groups interested in creating their own PDF-centric corpora using [GitHub](https://github.com/), please consider using [Git LFS](https://git-lfs.github.com/) so that large files can be easily supported. 
 
 ## GovDocs1
 - https://digitalcorpora.org/corpora/files
 
-This is a very well-studied and large corpus created in 2010, comprising almost 1 million documents from the USA .gov TLD, of which more than 231,000 are PDF documents. The above URL provides lots of detailed information and references.
+This is a very well-studied and large corpus created in 2010, comprising almost 1 million documents from the USA .gov TLD, of which more than 231,000 are PDF documents. The above URL provides lots of detailed information and references. For reference, the 1000 ZIP files total about 308GB. As of November 2020, GovDocs1 has joined the AWS Open Data Sponsorship Program and data is now available directly in AWS S3 (see https://digitalcorpora.org/s3_browser.html#corpora/files/govdocs1/zipfiles/)
 
 
 ## CommonCrawl.org
@@ -200,6 +201,18 @@ The University of Salford Pattern Recognition & Image Analysis Research Lab (PRI
 The IEEE DataPort contains some open access data sets. Although mainly focused on machine learning, many data sets are image-based.
 
 - https://ieee-dataport.org/datasets
+
+## AWS Open Data Program
+
+Both GovDocs1 and CommonCrawl are part of the AWS Open Data Program (see above), but there are also many other data sets (mostly image and video related). Data is stored in AWS S3.
+
+- https://registry.opendata.aws/
+
+## Microsoft Research Open Data
+
+The MSR Open Data datasets provide a convenient UI for selecting datasets based on format (file type) which includes PDF, docx and png. Datasets are stored in Azure.
+
+- https://msropendata.com/
 
 ## ICC Profiles
 
