@@ -109,10 +109,11 @@ To serve as a reference for software developers and practitioners interested in 
 The Altona Test Suite is a set of highly technical PDF files and patches specifically designed for testing ISO 15930 PDF/X compliance and color accuracy including transparency blending, font handling, smooth shades, gray balance, overprinting, etc.
 
 
-## 3D PDF Consortium Showcase
+## 3D PDF Showcase
+- https://www.pdfa.org/3d-pdf-showcase/
 - http://3dpdfconsortium.org/showcase/
 
-The 3D PDF Consortium provides a showcase corpus of about 20 PDFs containing different kinds of 3D content from various creators.
+The 3D PDF showcase corpus provides about 20 PDFs containing different kinds of 3D content from various creators.
 
 
 ## Google pdfium Regression Test Suite
@@ -166,9 +167,10 @@ This is a corpus of approximately 730 legacy PDF documents (from 2008-), however
 ## Mikal's "pdfdb"
 
 - http://www.stillhq.com/pdfdb/db.html (dead link)
+    - Wayback Machine link: https://web.archive.org/web/20190212183538/http://www.stillhq.com/pdfdb/db.html
 - https://www.madebymikal.com/pdfdb/db.html (also a dead link)
 
-A database referenced from StackOverflow (https://stackoverflow.com/questions/14386393/pdf-specification-compliance-testing-sample-files) that is no longer available.
+A database referenced from StackOverflow (https://stackoverflow.com/questions/14386393/pdf-specification-compliance-testing-sample-files) that is no longer directly available.
 
 
 ## Artifex MuPDF Public Test Corpus
