@@ -13,7 +13,7 @@ This informative resource is freely provided to all interested PDF developers, e
 
 **CAUTION: like any file downloaded from the internet, good computer security and hygiene practices should always be employed as some of these corpora contain files that are malicious! Use at your own risk!**
 
-For groups interested in creating their own PDF-centric corpora using [GitHub](https://github.com/), please consider using [Git LFS](https://git-lfs.github.com/) so that large files can be easily supported. 
+For groups interested in creating their own PDF-centric corpora using [GitHub](https://github.com/), please consider using [Git LFS](https://git-lfs.github.com/) so that large files can be easily supported.
 
 ## GovDocs1
 - https://digitalcorpora.org/corpora/files
@@ -188,9 +188,31 @@ Test corpus used by the [Qiqqa PDF document management software](https://github.
 
 **WARNING: Be aware that this corpus includes *malformed*, *invalid* and *malicious* PDFs**, which serve as an acid test for robustness testing production-level PDF processors. *Cave canem.*
 
+## Various US Government Corpora
+
+In addition to GovDocs1 mentioned above, the following specialized archives provide
+many PDFs (largely in US English) but do not provide pre-packaged ZIP files:
+
+* https://governmentattic.org/
+
+> The US Government Attic "_provides electronic copies of thousands of interesting Federal Government documents obtained under the Freedom of Information Act.  Fascinating historical documents, reports on items in the news, oddities and fun stuff and government bloopers, they're all here._". Files are stored as PDFs with many having redactions. There appears to be no combined download of the entire corpus but the web pages are sufficiently simple to recursively fetch using something like `curl` or `wget`.
+
+* https://www.oversight.gov/
+
+> "_Oversight.gov is a publicly accessible, searchable website containing the latest public reports from Federal Inspectors General who are members of the Council of the Inspectors General on Integrity and Efficiency (CIGIE)._" There appears to be no combined download of the entire corpus.
+
+* https://nsarchive.gwu.edu/digital-national-security-archive
+
+> The Digital National Security Archive (DNSA) "_is an invaluable online collection of more than 100,000 declassified records documenting historic U.S. policy decisions._"
+
+* https://archive.org/details/usfederalcourts
+
+> CourtListener’s RECAP court document archive. "_The documents in this collection are from the US Federal Courts. A large collection come from the federal government's project for Public Access to Court Electronic Records (PACER). The PACER Service Center is the Federal Judiciary's centralized registration, billing, and technical support center for electronic access to U.S. District, Bankruptcy, and Appellate court records. For more information on the RECAP project, visit https://www.recapthelaw.org_"
+
+
 # *Other formats*
 
-Internally PDF supports many so-called "nested formats", such as JPEG, JPEG 2000, JBIG2, ICC and font programs, as well as conversion from other formats. Thus sources of corpora in other formats may also be of interest to the broader PDF community. Note that PDF can and does technically limit the scope of what certain nested formats can contain, so **do not** assume that all files in these corpora are valid for nesting inside PDF! Always refer to the latest PDF specification \([ISO 32000-2, PDF 2.0](https://www.iso.org/standard/75839.html)) for all technical requirements.
+Internally PDF supports many so-called nested or embedded formats, such as JPEG, JPEG 2000, JBIG2, ICC, OpenType and other font programs, as well as conversion from other formats. Thus sources of corpora in other formats may also be of interest to the broader PDF community. Note that PDF can and does technically limit the scope of what certain nested formats can contain, so **do not** assume that all files in these corpora are valid for nesting inside PDF! Always refer to the latest PDF specification \([ISO 32000-2, PDF 2.0](https://www.pdfa.org/resource/iso-32000-pdf/)) for all technical requirements.
 
 ##  PRImA Labs
 
@@ -223,7 +245,7 @@ PDF files can contain ICC profiles to provide device-independent definitions for
 - the ICC website [color.org](https://color.org/profiles.xalter) has many ICC profiles, including probe profiles which can test correct handling of rendering intents
 - [Google's SKIA skcms corpus](https://skia.googlesource.com/skcms/+/refs/heads/main/profiles/) includes many good and bad ICC profiles
 - [LitteCMS test bed](https://github.com/mm2/Little-CMS/tree/master/testbed)
-- a collection of [monitor ICC profiles](https://tftcentral.co.uk/articles/icc_profiles.htm) 
+- a collection of [monitor ICC profiles](https://tftcentral.co.uk/articles/icc_profiles.htm)
 
 # *Legal*
 In accordance with Title 17 U.S.C. Section 107, the material in this document is distributed without profit to those who have an interest in understanding interoperabiltity of PDF files, including for research and educational purposes. If you wish to use the copyrighted material of others that is referenced in this document for purposes of your own that go beyond 'fair use', it is your responsibility to obtain permission from the relevant copyright owner.
