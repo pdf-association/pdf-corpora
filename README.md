@@ -164,6 +164,14 @@ Scanned books and other publications can be downloaded in PDF format. Note that 
 This is a corpus of approximately 730 legacy PDF documents (from 2008-), however it has somewhat limited variabilty in PDF technical and syntactic constructs.
 
 
+## New York State Regents Exams 
+
+- https://www.nysl.nysed.gov/regentsexams.htm (overview)
+- https://nysl.ptfs.com/knowvation/app/consolidatedSearch/#search/v=list,c=1,sm=s,l=library1_lib%2Clibrary4_lib%2Clibrary5_lib (Search page)
+
+"_NYS Regents Exams in PDF format are part of the Library's Digital Collections. In addition to current exams, many historical ones have also been digitized: some of the oldest Regents Exams currently available online are in Physical Geography (1884) and Astronomy (1893)._". See https://www.nysl.nysed.gov/collections/regentsexams/ for some images of content. Corpus has a variety of complex content such as music scores, mathematics, etc. 
+
+
 ## Mikal's "pdfdb"
 
 - http://www.stillhq.com/pdfdb/db.html (dead link)
