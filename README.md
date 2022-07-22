@@ -134,6 +134,11 @@ PDF.js is a PDF viewer supported by Mozilla that is built with HTML5.
 Three sample PDF files containing ISO 19593-1 compliant processing step data (i.e. PDF optional content layers describing cut contours (die lines), varnish, braille, legends, etc.). These sample files are fully compliant with the ISO standard and serve to illustrate the concepts discussed in the standard.
 
 
+## iText Regression Test Suite
+- https://github.com/itext/itext7
+
+In amongst the iText Java source code is a sizeable corpus of just under 4,000 PDF files provided as the regression test suite for the iText PDF library. The PDF files  are nicely classified as to the PDF feature being tested, including a [good suite of encrypted PDFs](https://github.com/itext/itext7/tree/develop/kernel/src/test/resources/com/itextpdf/kernel/crypto/PdfEncryptionTest) and many others. Each PDF tends to nice and small for targetted testing of a specific feature with set permutations of PDF keys, values, etc.  
+
 ## Ground-truthed data sets for PDF table recognition
 - http://www.tamirhassan.com/html/dataset.html
 
