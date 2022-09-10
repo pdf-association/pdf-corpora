@@ -223,6 +223,16 @@ many PDFs (largely in US English) but do not provide pre-packaged ZIP files:
 > CourtListener’s RECAP court document archive. "_The documents in this collection are from the US Federal Courts. A large collection come from the federal government's project for Public Access to Court Electronic Records (PACER). The PACER Service Center is the Federal Judiciary's centralized registration, billing, and technical support center for electronic access to U.S. District, Bankruptcy, and Appellate court records. For more information on the RECAP project, visit https://www.recapthelaw.org_"
 
 
+# Malicious Datasets
+
+**These datasets contain malicious PDFs and should be treated with extreme caution!!**
+
+## Canadian Institute for Cybersecurity "CIC-Evasive-PDFMal2022" dataset
+
+* https://www.unb.ca/cic/datasets/pdfmal-2022.html
+
+"Evasive-PDFMal2022 consists of 10,025 records with 5557 malicious and 4468 benign records that tend to evade the common significant features found in each class. This makes them harder to detect by common learning algorithms. We have collected 11,173 malicious files from Contagio, 20,000 malicious files from VirusTotal, and 9,109 benign files from Contagio."
+
 # *Other formats*
 
 Internally PDF supports many so-called nested or embedded formats, such as JPEG, JPEG 2000, JBIG2, ICC, OpenType and other font programs, as well as conversion from other formats. Thus sources of corpora in other formats may also be of interest to the broader PDF community. Note that PDF can and does technically limit the scope of what certain nested formats can contain, so **do not** assume that all files in these corpora are valid for nesting inside PDF! Always refer to the latest PDF specification \([ISO 32000-2, PDF 2.0](https://www.pdfa.org/resource/iso-32000-pdf/)) for all technical requirements.
