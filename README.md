@@ -231,7 +231,7 @@ many PDFs (largely in US English) but do not provide pre-packaged ZIP files:
 
 * https://www.unb.ca/cic/datasets/pdfmal-2022.html
 
-"Evasive-PDFMal2022 consists of 10,025 records with 5557 malicious and 4468 benign records that tend to evade the common significant features found in each class. This makes them harder to detect by common learning algorithms. We have collected 11,173 malicious files from Contagio, 20,000 malicious files from VirusTotal, and 9,109 benign files from Contagio."
+> "_Evasive-PDFMal2022 consists of 10,025 records with 5557 malicious and 4468 benign records that tend to evade the common significant features found in each class. This makes them harder to detect by common learning algorithms. We have collected 11,173 malicious files from Contagio, 20,000 malicious files from VirusTotal, and 9,109 benign files from Contagio_."
 
 # *Other formats*
 
