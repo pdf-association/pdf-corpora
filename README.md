@@ -230,6 +230,7 @@ many PDFs (largely in US English) but do not provide pre-packaged ZIP files:
 ## Canadian Institute for Cybersecurity "CIC-Evasive-PDFMal2022" dataset
 
 * https://www.unb.ca/cic/datasets/pdfmal-2022.html
+* https://www.kaggle.com/datasets/dhoogla/cic-evasive-pdfmal2022
 
 > "_Evasive-PDFMal2022 consists of 10,025 records with 5557 malicious and 4468 benign records that tend to evade the common significant features found in each class. This makes them harder to detect by common learning algorithms. We have collected 11,173 malicious files from Contagio, 20,000 malicious files from VirusTotal, and 9,109 benign files from Contagio_."
 
@@ -260,6 +261,14 @@ Both GovDocs1 and CommonCrawl are part of the AWS Open Data Program (see above),
 The MSR Open Data datasets provide a convenient UI for selecting datasets based on format (file type) which includes PDF, docx and png. Datasets are stored in Azure.
 
 - https://msropendata.com/
+
+## Kaggle
+
+[Kaggle](https://www.kaggle.com/) provides various datasets mainly intended for machine learning and AI applications. Some include PDFs:
+
+- Scanned-to-PDF receipts from around the world [https://www.kaggle.com/datasets/jenswalter/receipts](https://www.kaggle.com/datasets/jenswalter/receipts)
+- 2400+ Resumes [https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset)
+- arXiv PDF publication dataset (stored in Amazon S3) [https://www.kaggle.com/datasets/Cornell-University/arxiv](https://www.kaggle.com/datasets/Cornell-University/arxiv)
 
 ## ICC Profiles
 
