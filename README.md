@@ -139,6 +139,13 @@ Three sample PDF files containing ISO 19593-1 compliant processing step data (i.
 
 In amongst the iText Java source code is a sizeable corpus of just under 4,000 PDF files provided as the regression test suite for the iText PDF library. The PDF files  are nicely classified as to the PDF feature being tested, including a [good suite of encrypted PDFs](https://github.com/itext/itext7/tree/develop/kernel/src/test/resources/com/itextpdf/kernel/crypto/PdfEncryptionTest) and many others. Each PDF tends to nice and small for targetted testing of a specific feature with set permutations of PDF keys, values, etc.  
 
+## Asymptote gallery samples
+- https://asymptote.sourceforge.io/gallery/PDFs/index.html: advanced shadings, clips, etc. 
+- https://asymptote.sourceforge.io/gallery/animations/index.html: various PDFs containing embedded movies
+
+Asymptote is an open-source vector graphics language with advanced rendering capabilities. It can output to PDF using many of the  advanced PDF graphics capabilities such as complex shadings/patterns, complex clips, etc. (rather than dumbing down to pre-rendered bitmap images like other packages). The Asymptote Gallery provides many examples in PDF format.
+
+
 ## Ground-truthed data sets for PDF table recognition
 - http://www.tamirhassan.com/html/dataset.html
 
