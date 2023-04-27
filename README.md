@@ -40,6 +40,11 @@ An outcome of the DARPA-funded SafeDocs research program, a large and growing co
 
 **NOTE: this unsanitized collated corpus contains a few PDFs that are known to trigger certain anti-malware/anti-virus programs.**
 
+## Library of Congress 1000 .gov dataset
+
+- https://www.loc.gov/item/2020445568/
+
+Effectively a smaller but updated dataset, similar to GovDocs1: "_This dataset of 1,000 PDF files was generated from indexes of the Web archives, which were used to derive a random list of 1,000 items identified as PDF files and hosted on .gov domains. The set includes 1,000 unique PDF files and minimal metadata about these PDFs, including links to their locations within the Library's web archive. Dataset originally created 11/6/2018_."
 
 ## FoxHex0ne Mutations
 - https://foxhex0ne.com/
