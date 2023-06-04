@@ -15,6 +15,13 @@ This informative resource is freely provided to all interested PDF developers, e
 
 For groups interested in creating their own PDF-centric corpora using [GitHub](https://github.com/), please consider using [Git LFS](https://git-lfs.github.com/) so that large files can be easily supported.
 
+## CC-MAIN-2021-31-PDF-UNTRUNCATED (SafeDocs)
+
+- https://digitalcorpora.org/cc-main-2021-31-pdf-untruncated/
+- https://downloads.digitalcorpora.org/corpora/files/CC-MAIN-2021-31-PDF-UNTRUNCATED/
+
+Announced in May 2023, this corpus contains nearly 8 million PDFs gathered from across the web in July/August of 2021. The PDF files were initially identified by [Common Crawl](https://commoncrawl.org/) as part of their July/August 2021 crawl (identified as "CC-MAIN-2021-31") with all truncated PDFs (those >1MB) subsequently updated and collated as part of the DARPA SafeDocs program. As far as we know this is the largest corpus of PDFs that is an unbiased representative of the current global public web, overcoming truncation limitations, top-level domain constraints or other limitations that prior web-crawled corpora impose. See https://pdfa.org/new-large-scale-pdf-corpus-now-publicly-available/ for a more detailed description. 
+
 ## GovDocs1
 - https://digitalcorpora.org/corpora/files
 
