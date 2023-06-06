@@ -123,9 +123,8 @@ The Altona Test Suite is a set of highly technical PDF files and patches specifi
 
 ## 3D PDF Showcase
 - https://www.pdfa.org/3d-pdf-showcase/
-- http://3dpdfconsortium.org/showcase/
 
-The 3D PDF showcase corpus provides about 20 PDFs containing different kinds of 3D content from various creators.
+Originally collated by members of the 3D PDF Consortium ([Wayback Machine link](https://web.archive.org/web/20220425214456/http://3dpdfconsortium.org/showcase/)), the 3D PDF showcase corpus provides about 20 PDFs containing different kinds of 3D content from various creators. All PDFs were transitioned to the PDF Association.
 
 
 ## Google pdfium Regression Test Suite
