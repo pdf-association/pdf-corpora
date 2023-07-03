@@ -154,7 +154,7 @@ Three sample PDF files containing ISO 19593-1 compliant processing step data (i.
 ## iText Regression Test Suite
 - https://github.com/itext/itext7
 
-Among the iText Java source code is a sizeable corpus of just under 4,000 PDF files provided as the regression test suite for the iText PDF library. The PDF files  are nicely classified as to the PDF feature being tested, including a [good suite of encrypted PDFs](https://github.com/itext/itext7/tree/develop/kernel/src/test/resources/com/itextpdf/kernel/crypto/PdfEncryptionTest) and many others. Each PDF tends to nice and small for targetted testing of a specific feature with set permutations of PDF keys, values, etc.  
+Among the iText Java source code is a sizeable corpus of just under 4,000 PDF files provided as the regression test suite for the iText PDF library. The PDF files  are nicely classified as to the PDF feature being tested, including a [good suite of encrypted PDFs](https://github.com/itext/itext7/tree/develop/kernel/src/test/resources/com/itextpdf/kernel/crypto/PdfEncryptionTest) and many others. Each PDF tends to be nice and small for targetted testing of a specific feature with set permutations of PDF keys, values, etc.  
 
 ## Asymptote gallery samples
 - https://asymptote.sourceforge.io/gallery/PDFs/index.html: advanced shadings, clips, etc. 
@@ -162,6 +162,13 @@ Among the iText Java source code is a sizeable corpus of just under 4,000 PDF fi
 
 Asymptote is an open-source vector graphics language with advanced rendering capabilities. It can output to PDF using many of the  advanced PDF graphics capabilities such as complex shadings/patterns, complex clips, etc. (rather than dumbing down to pre-rendered bitmap images like other packages). The Asymptote Gallery provides many examples in PDF format.
 
+## Legacy Adobe Acrobat and Reader Engineering team test files (via Wayback Machine)
+- https://web.archive.org/web/20130503115947/http://acroeng.adobe.com/wp/
+- https://web.archive.org/web/20130717074145/http://acroeng.adobe.com/wp/?page_id=208
+
+Note: all data is from the Wayback Machine and many of the PDFs were not archived. Sometimes files of the same name and size can be located elsewhere on the internet. 
+
+Various small test sets (such as "Fast Web View/Linearization", "PDF Page Elements", "PDF Files Elements", "Acrobat Sanity Testing", "PDFs in Browser Testing", "Viewer Testing", and "(ISO) PDF Standards Testing") from the Adobe engineering teams responsible for Adobe Reader and Acrobat.
 
 ## Ground-truthed data sets for PDF table recognition
 - http://www.tamirhassan.com/html/dataset.html
