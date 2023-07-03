@@ -8,7 +8,7 @@
 
 This index references a number of the more significant public corpora (data sets) that may contain both valid and invalid, real and synthetic PDF files, reflecting the realities of processing PDF files 'from the wild'. In addition, targeted test suites for specific PDF features or ISO subsets of PDF are also listed. It is not intended to be a list of every website where PDFs may be obtained.
 
-This informative resource is freely provided to all interested PDF developers, end-users and researchers. It does not reflect endorsement of any organization, website or corpus. If you currate, maintain or identify other corpora that you believe might be useful to the PDF industry and is freely available please contact us. Some corpora may require registration in order to access.
+This informative resource is freely provided to all interested PDF developers, end-users and researchers. It does not reflect an endorsement of any organization, website or corpus. If you currate, maintain or identify other corpora that you believe might be useful to the PDF industry and is freely available please contact us. Some corpora may require registration in order to access.
 
 
 **CAUTION: like any file downloaded from the internet, good computer security and hygiene practices should always be employed as some of these corpora contain files that are malicious! Use at your own risk!**
@@ -43,7 +43,7 @@ NOTE: Based on published SafeDocs research, many PDFs in the CommonCrawl databas
 - The November 2020 update conveniently pre-packages all PDFs into six compressed tarballs (.tgz files): https://corpora.tika.apache.org/base/packaged/pdfs/
 - The initial release from Sept 2020 is also still available from https://corpora.tika.apache.org/base/packaged/pdfs/archive/
 
-An outcome of the DARPA-funded SafeDocs research program, a large and growing corpus (>32K files, >31GB) collated by targeted deep-crawls of various issue trackers (e.g. Bugzilla, JIRA, GitHub) to extract PDF attachments on public bug reports for various well-known open-source PDF-aware implementations. These PDFs are not directly discoverable via standard internet search engines. By it's very nature, this corpus has a higher than normal quantity of unusual and malformed PDFs. Further technical details of this corpus can be found at https://www.pdfa.org/a-new-stressful-pdf-corpus/ and https://www.pdfa.org/stressful-pdf-corpus-grows/ as well as README files on the Apache Tika regression server.
+An outcome of the DARPA-funded SafeDocs research program, a large and growing corpus (>32K files, >31GB) collated by targeted deep-crawls of various issue trackers (e.g. Bugzilla, JIRA, GitHub) to extract PDF attachments on public bug reports for various well-known open-source PDF-aware implementations. These PDFs are not directly discoverable via standard internet search engines. By its very nature, this corpus has a higher-than-normal quantity of unusual and malformed PDFs. Further technical details of this corpus can be found at https://www.pdfa.org/a-new-stressful-pdf-corpus/ and https://www.pdfa.org/stressful-pdf-corpus-grows/ as well as README files on the Apache Tika regression server.
 
 **NOTE: this unsanitized collated corpus contains a few PDFs that are known to trigger certain anti-malware/anti-virus programs.**
 
@@ -62,12 +62,13 @@ A set of mutated PDFs (and other document formats) created via mutation-based fu
 ## OpenPreserve Foundation Format Corpus
 - https://github.com/openpreserve/format-corpus
 
-The is a digitial preservation focused corpus which is openly-licensed, and covers a wide range of formats and creation tools.
+This is a digital preservation-focused corpus that is openly licensed and covers a wide range of formats and creation tools.
 
-### The Archivist's PDF Cabinet of Horrors
+
+## The Archivist's PDF Cabinet of Horrors
 - https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors
 
-A smaller sub-corpus of PDF test files, created for detecting PDF features that are generally undesireable in an archival setting.
+A smaller sub-corpus of PDF test files, created for detecting PDF features that are generally undesirable in an archival setting.
 
 
 ## Cal Poly Graphic Communications PDF/VT Test File Suite 1.0.1
@@ -85,7 +86,7 @@ The veraPDF test corpus targets the ISO 19005 family of PDF/A specifications (Ve
  - they are self-documented via the document outlines; and
  - the naming pattern and the directory structure indicate relevant parts of ISO 19005 specifications
 
-### Isartor Test Suite for PDF/A-1b
+## Isartor Test Suite for PDF/A-1b
 - https://www.pdfa.org/resource/isartor-test-suite/
 
 This test suite comprises a set of files that are used to check the conformance with PDF/A-1. More precisely, the Isartor test suite can be used to "validate the validators": It deliberately violates the requirements of PDF/A-1 in a systematic way in order to check whether PDF/A-1 validation software actually finds the violations.
@@ -94,8 +95,13 @@ This test suite comprises a set of files that are used to check the conformance 
 ## BFO PDF/A Test Suite
 - https://github.com/bfosupport/pdfa-testsuite
 
-A collection of about 40 PDF documents that should either pass or fail a conformance test against the specified ISO 19005 PDF/A profile. The description.txt file lists the reason they should pass or fail. This collection was inspired by the Isartor test suite and follows a similar layout with respect to test case names, including the section of the PDF/A specification to which each test refers. Unlike Isartor there are also  valid documents which test a particular area of the specification.
+A collection of about 40 PDF documents that should either pass or fail a conformance test against the specified ISO 19005 PDF/A profile. The description.txt file lists the reason they should pass or fail. This collection was inspired by the Isartor test suite and follows a similar layout with respect to test case names, including the section of the PDF/A specification to which each test refers. Unlike Isartor there are also  valid documents that test a particular area of the specification.
 
+
+## "Synthetic PDF Testset for File Format Validation"
+- https://www.radar-service.eu/radar/en/dataset/JtlOdwQquZWDqQdq
+
+(Abstract) "_This data set presents a corpus of light-weight files designed to test the validation criteria of JHOVE's PDF module against "well-formedness". Test cases are based on structural requirements for PDF files as per ISO 32000-1:2008 standard. The basis for all test files is a single page, one line document with no special features such as linearization. While such a light-weight document only allows to check against a fragment of standard requirements, the focus was put on basic structure violations at the header, trailer, document catalog, page tree node and cross-reference levels. The test set also checks for basic violations at the page node, page resource and stream object level. The accompanying spreadsheet briefly categorizes and describes the test set and includes the outcome when running the test set against JHOVE 1.16, PDF-hul 1.8 as well as Adobe Acrobat Professional XI Pro (11.0.15). The spreadsheet also includes a codecov coverage statistic for the test set in relation to the JHOVE 1.16, PDF-hul 1.8 module. Further information can be found in the paper "A PDF Test-Set for Well-Formedness Validation in JHOVE - The Good, the Bad and the Ugly", published in the proceedings of the 14th International Conference on Digital Preservation (Kyoto, Japan, September 25-29 2017). While the spreadsheet only contains results of running the test set against JHOVE, it can be used as a ground truth for any file format validation process._"
 
 ## Ghent Working Group (GWG) Output Test Suite
 - https://www.gwg.org/workflow-tools-downloads/test-suites/ghent-output-suite/
@@ -106,7 +112,7 @@ The Ghent Output Suite (currently v5.0) has been created for testing PDF process
 ## PDF/UA Reference Suite
 - https://www.pdfa.org/resource/pdfua-reference-suite/
 
-To serve as a reference for software developers and practitioners interested in best-practices for creating tagged and accessible PDF files, the PDF Association's PDF/UA Competence Center has posted a set of 10 PDF documents conforming to ISO 14289-1 PDF/UA-1.
+To serve as a reference for software developers and practitioners interested in best practices for creating tagged and accessible PDF files, the PDF Association's PDF/UA Competence Center has posted a set of 10 PDF documents conforming to ISO 14289-1 PDF/UA-1.
 
 
 ## Matterhorn Protocol 1.02
@@ -148,7 +154,7 @@ Three sample PDF files containing ISO 19593-1 compliant processing step data (i.
 ## iText Regression Test Suite
 - https://github.com/itext/itext7
 
-In amongst the iText Java source code is a sizeable corpus of just under 4,000 PDF files provided as the regression test suite for the iText PDF library. The PDF files  are nicely classified as to the PDF feature being tested, including a [good suite of encrypted PDFs](https://github.com/itext/itext7/tree/develop/kernel/src/test/resources/com/itextpdf/kernel/crypto/PdfEncryptionTest) and many others. Each PDF tends to nice and small for targetted testing of a specific feature with set permutations of PDF keys, values, etc.  
+Among the iText Java source code is a sizeable corpus of just under 4,000 PDF files provided as the regression test suite for the iText PDF library. The PDF files  are nicely classified as to the PDF feature being tested, including a [good suite of encrypted PDFs](https://github.com/itext/itext7/tree/develop/kernel/src/test/resources/com/itextpdf/kernel/crypto/PdfEncryptionTest) and many others. Each PDF tends to nice and small for targetted testing of a specific feature with set permutations of PDF keys, values, etc.  
 
 ## Asymptote gallery samples
 - https://asymptote.sourceforge.io/gallery/PDFs/index.html: advanced shadings, clips, etc. 
@@ -172,7 +178,7 @@ The freely available PDF-TREX dataset is a standard dataset in the TREX (Table R
 ##  US National Library of Medicine - National Institutes of Health
 - https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/
 
-A collection of scientific PDF publications included in the PubMed Central Open Access Subset (commercial use collection).
+A collection of scientific PDF publications is included in the PubMed Central Open Access Subset (commercial use collection).
 
 
 ## OpenLibrary.org
@@ -184,7 +190,7 @@ Scanned books and other publications can be downloaded in PDF format. Note that 
 ## International Labour Organization
 - https://www.ilo.org/public/libdoc/ilo/ILO-SR/
 
-This is a corpus of approximately 730 legacy PDF documents (from 2008-), however it has somewhat limited variabilty in PDF technical and syntactic constructs.
+This is a corpus of approximately 730 legacy PDF documents (from 2008-), however it has somewhat limited variability in PDF technical and syntactic constructs.
 
 
 ## New York State Regents Exams 
@@ -276,7 +282,7 @@ Both GovDocs1 and CommonCrawl are part of the AWS Open Data Program (see above),
 
 ## Microsoft Research Open Data
 
-The MSR Open Data datasets provide a convenient UI for selecting datasets based on format (file type) which includes PDF, docx and png. Datasets are stored in Azure.
+The MSR Open Data datasets provide a convenient UI for selecting datasets based on a format (file type) which includes PDF, docx and png. Datasets are stored in Azure.
 
 - https://msropendata.com/
 
@@ -298,6 +304,6 @@ PDF files can contain ICC profiles to provide device-independent definitions for
 - a collection of [monitor ICC profiles](https://tftcentral.co.uk/articles/icc_profiles.htm)
 
 # *Legal*
-In accordance with Title 17 U.S.C. Section 107, the material in this document is distributed without profit to those who have an interest in understanding interoperabiltity of PDF files, including for research and educational purposes. If you wish to use the copyrighted material of others that is referenced in this document for purposes of your own that go beyond 'fair use', it is your responsibility to obtain permission from the relevant copyright owner.
+In accordance with Title 17 U.S.C. Section 107, the material in this document is distributed without profit to those who have an interest in understanding the interoperability of PDF files, including for research and educational purposes. If you wish to use the copyrighted material of others that is referenced in this document for purposes of your own that go beyond 'fair use', it is your responsibility to obtain permission from the relevant copyright owner.
 
 The PDF Association does not warrant the accuracy, timeliness or completeness of the information contained in this document. All copyright and trademarks remain with their respective owners. If you have a particular complaint about something you’ve read here, please contact us.
