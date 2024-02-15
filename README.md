@@ -251,6 +251,14 @@ Test corpus used by the [Qiqqa PDF document management software](https://github.
 
 **WARNING: Be aware that this corpus includes *malformed*, *invalid* and *malicious* PDFs**, which serve as an acid test for robustness testing production-level PDF processors. *Cave canem.*
 
+
+## IUST-PDFCorpus
+
+- https://zenodo.org/records/3484013
+- described in "[Format-aware Learn&Fuzz: Deep Test Data Generation for Efficient Fuzzing](https://arxiv.org/abs/1812.09961v2)"
+
+"_IUST-PDFCorpus is a large set of various PDF files, aimed at building and manipulating new PDF files, to test, debug, and improve the qualification of real-world PDF readers [snip]. IUST-PDFCorpus contains 6,141 PDF complete files in various sizes and contents. The corpus includes 507,299 PDF data objects and 151,132 PDF streams extracted from the set of complete files. Data objects are in the textual format while streams have a binary format and together they make PDF files. In addition, we attached the code coverage of each PDF file when it used as test data in testing MuPDF. The coverage info is available in both binary and XML formats. PDF data objects are organized into three categories. The first category contains all objects in the corpus. Each file in this category holds all PDF objects extracted from one PDF file without any preprocessing. The second category is a dataset made by merging all files in the first category with some preprocessing. The dataset is spilled into train, test and validation set which is useful for using in the machine learning tasks. The third category is the same as the second category but in a smaller size for using in the developing stage of different algorithms. IUST-PDFCorpus is collected from various sources including the Mozilla PDF.js open test corpus, some PDFs which are used in AFL as initial seed, and PDFs gathered from existing e-books, software documents, and public web in different languages. We first introduced IUST-PDFCorpus in our paper “Format-aware learn&fuzz: deep test data generation for efficient fuzzing” where we used it to build an intelligent file format fuzzer, called IUST-DeepFuzz. For the time being, we are gathering other file formats to automate testing of related applications._".
+
 ## Various US Government Corpora
 
 In addition to GovDocs1 mentioned above, the following specialized archives provide
