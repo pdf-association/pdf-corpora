@@ -259,6 +259,13 @@ Test corpus used by the [Qiqqa PDF document management software](https://github.
 
 "_IUST-PDFCorpus is a large set of various PDF files, aimed at building and manipulating new PDF files, to test, debug, and improve the qualification of real-world PDF readers [snip]. IUST-PDFCorpus contains 6,141 PDF complete files in various sizes and contents. The corpus includes 507,299 PDF data objects and 151,132 PDF streams extracted from the set of complete files. Data objects are in the textual format while streams have a binary format and together they make PDF files. In addition, we attached the code coverage of each PDF file when it used as test data in testing MuPDF. The coverage info is available in both binary and XML formats. PDF data objects are organized into three categories. The first category contains all objects in the corpus. Each file in this category holds all PDF objects extracted from one PDF file without any preprocessing. The second category is a dataset made by merging all files in the first category with some preprocessing. The dataset is spilled into train, test and validation set which is useful for using in the machine learning tasks. The third category is the same as the second category but in a smaller size for using in the developing stage of different algorithms. IUST-PDFCorpus is collected from various sources including the Mozilla PDF.js open test corpus, some PDFs which are used in AFL as initial seed, and PDFs gathered from existing e-books, software documents, and public web in different languages. We first introduced IUST-PDFCorpus in our paper “Format-aware learn&fuzz: deep test data generation for efficient fuzzing” where we used it to build an intelligent file format fuzzer, called IUST-DeepFuzz. For the time being, we are gathering other file formats to automate testing of related applications._".
 
+## Public Affairs Layout database (PALdb)
+
+- https://github.com/BiDAlab/PALdb - requires personal registration
+- As referenced in Peña et al, "Continuous document layout analysis: Human-in-the-loop AI-based data curation, database, and evaluation in the domain of public affairs", Information Fusion, 2024, ISSN 1566-2535, https://doi.org/10.1016/j.inffus.2024.102398. (https://www.sciencedirect.com/science/article/pii/S1566253524001763)
+
+"_The database was collected from a set of 24 data sources from the Spanish administration and comprises nearly 37,910 documents, 441.3K document pages, 138.1M tokens and 8M layout labels. ... 1M images, 118.7K tables, 14.4K links, and 7.1M text blocks_". Intended use of this dataset is for document layout analysis (DLA).
+
 ## Various US Government Corpora
 
 In addition to GovDocs1 mentioned above, the following specialized archives provide
