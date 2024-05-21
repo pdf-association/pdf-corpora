@@ -252,6 +252,14 @@ Test corpus used by the [Qiqqa PDF document management software](https://github.
 **WARNING: Be aware that this corpus includes *malformed*, *invalid* and *malicious* PDFs**, which serve as an acid test for robustness testing production-level PDF processors. *Cave canem.*
 
 
+## Digital Library of Slovenia
+
+- https://dlib.si/?&language=eng (English website)
+- As described in ["_A Lightweight Approach to a Giga-Corpus of Historical Periodicals: The Story of a Slovenian Historical Newspaper Collection_"](https://aclanthology.org/2024.lrec-main.61/) by Filip Dobranić, Bojan Evkoski and Nikola Ljubešić.
+
+The Digital Library of Slovenia includes various kinds of PDF documents, including scans of historic documents with overlaid invisible text (text render mode 3). Many PDFs also include pure text equivalents. It is a useful corpus for non-English Slovac documents. 
+
+
 ## IUST-PDFCorpus
 
 - https://zenodo.org/records/3484013
