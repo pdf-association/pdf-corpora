@@ -206,6 +206,18 @@ A collection of scientific PDF publications is included in the PubMed Central Op
 
  Dataset of Incident Management Situation Reports (IMSR) from 1990 to 2022, which document daily wildland fire situations across ten geographical regions in the United States.
  
+## NEPATEC1.0 - US Environmental Impact Statement (EIS) PDF dataset
+
+- Sharma, S. et al. (2024) ‘NEPATEC1.0: First Large-Scale Text Corpus of National Environmental Policy Act PDF Documents’, p. 7. https://www.pnnl.gov/sites/default/files/media/file/PNNL_PolicyAI_Dataset_Model_Release_IR_06_26.pdf.
+- https://huggingface.co/datasets/PolicyAI/NEPATEC1.0 
+
+"_NEPATEC1.0 is an AI-ready dataset that contains data extracted from the Environmental Impact
+Statement (EIS) Database provided by U.S. Environmental Protection Agency (EPA). An EIS is a
+government document that analyzes the potential environmental effects of a proposed project and
+identifies ways to mitigate those effects. NEPATEC1.0 contains textual data and associated metadata
+extracted from 2,917 projects. These projects contain 28,212 documents, 4.6 million pages, and over
+3.6 billion tokens of textual data (using GPT2 tokenizer)._"
+
 
 ## OpenLibrary.org
 - https://openlibrary.org/
