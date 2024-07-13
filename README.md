@@ -272,6 +272,14 @@ Test corpus used by the [Qiqqa PDF document management software](https://github.
 The Digital Library of Slovenia includes various kinds of PDF documents, including scans of historic documents with overlaid invisible text (text render mode 3). Many PDFs also include pure text equivalents. It is a useful corpus for non-English Slovac documents. 
 
 
+## Italian Institute for Environmental Protection and Research (ISPRA) regional snowfall records
+
+- http://www.bio.isprambiente.it/annalipdf/
+- Described by the article: ["Historical snowfall precipitation data in the Apennine Mountains, Italy" by Capozzi Vincenzo; Serrapica Francesco; Rocco Armando; Annella Clizia and Budillon Giorgio, 2024-01-01](https://ricerca.uniparthenope.it/handle/11367/133936)
+
+Scans of historical Italian snowfall records by region stored as PDF : "_...  the original data sources of this database, the Hydrological Yearbooks of the NHMS, are freely accessible in printed version (i.e. as scanned images in portable document format) through the Italian Institute for Environmental Protection and Research (ISPRA) website (http://www.bio.isprambiente.it/annalipdf)._"
+
+
 ## IUST-PDFCorpus
 
 - https://zenodo.org/records/3484013
