@@ -248,6 +248,12 @@ This is a corpus of approximately 730 legacy PDF documents (from 2008-), however
 A database referenced from StackOverflow (https://stackoverflow.com/questions/14386393/pdf-specification-compliance-testing-sample-files) that is no longer directly available.
 
 
+## Vasulka PDF Archive (history of video and electronic art)
+- https://vasulka.org/archive/sitemap.html
+
+From https://vasulka.org/about_archive.html: "_The Vasulka Archive currently consists of over 27,000 pages of documents relevant to the history of video and electronic art. These include articles, essays, interviews, reviews, schematics, diagrams, illustrations, posters, concert programs, photographs, and correspondence. While a large percentage of this material directly relates to the art and careers of Steina and Woody Vasulka, there are well over 200 artists and scholars represented. Some of the material has been taken from periodicals that are both in and out of print. The rest has been taken from the personal collection of the Vasulkas that began over thirty years ago._"
+
+
 ## Artifex MuPDF Public Test Corpus
 
 - http://git.ghostscript.com/?p=tests.git;a=summary
