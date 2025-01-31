@@ -187,6 +187,13 @@ Various small test sets (such as "Fast Web View/Linearization", "PDF Page Elemen
 Two ground-truthed datasets of natively-digital PDF documents containing tables. These documents have been collected systematically from the European Union and US Government websites.
 
 
+## HisDoc18 (Chinese)
+- https://github.com/SCUT-DLVCLab/HisDoc1B?tab=readme-ov-file 
+- Shi, Y. et al. (January 2025) ‘A large-scale dataset for Chinese historical document recognition and analysis’, Scientific Data, 12(1), p. 169. https://doi.org/10.1038/s41597-025-04495-x.
+
+HisDoc1B is a large-scale annotated dataset for Chinese historical document recognition and analysis. The HisDoc1B corpus comprises 40,281 books, over 3 million document images, and over 1 billion characters across 30,615 character categories. The ZIP download referenced from the GitHub link above is 15.8GB. The HisDoc1B8 dataset consists of two main folders, one dedicated to storing historical documents in the form of e-books and the other containing their respective annotation files. The e-books are archived in PDF or DjVu formats. The annotation files are stored in JavaScript Object Notation (JSON) format, aligning with each corresponding e-book. The dataset employs a unique book identifier (ID) to pair e-books with their annotation files, ensuring precise alignment
+
+
 ## PDF-TREX Table Recognition and Extraction data set
 - http://staff.icar.cnr.it/ruffolo/pdf-trex
 
