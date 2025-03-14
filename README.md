@@ -200,6 +200,13 @@ HisDoc1B is a large-scale annotated dataset for Chinese historical document reco
 The freely available PDF-TREX dataset is a standard dataset in the TREX (Table Recognition and EXtraction) field. The dataset contains 100 PDF documents and 164 tables having different layouts.
 
 
+## Derek Willis' "The Worst PDFs on the Planet"
+- https://github.com/dwillis/nicar25-pdfs
+- https://arstechnica.com/ai/2025/03/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/
+
+A small number of PDFs that supposedly push the current limits of visual understanding and OCR-based LLMs.
+
+
 ##  US National Library of Medicine - National Institutes of Health
 - https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/
 
