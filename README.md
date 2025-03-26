@@ -270,7 +270,7 @@ From https://vasulka.org/about_archive.html: "_The Vasulka Archive currently con
 
 ## Artifex MuPDF Public Test Corpus
 
-- http://git.ghostscript.com/?p=tests.git;a=summary
+- https://cgit.ghostscript.com/cgi-bin/cgit.cgi/tests.git/
 
 Public test corpus for Ghostscript/MuPDF, maintained by Artifex (https://mupdf.com/).
 
