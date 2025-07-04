@@ -284,6 +284,13 @@ Test corpus used by the [Qiqqa PDF document management software](https://github.
 **WARNING: Be aware that this corpus includes *malformed*, *invalid* and *malicious* PDFs**, which serve as an acid test for robustness testing production-level PDF processors. *Cave canem.*
 
 
+## M<sup>6</sup>Doc Dataset
+
+- https://github.com/HCIILAB/M6Doc
+
+The M<sup>6</sup>Doc dataset contains a total of 9,080 document images used for document layout analysis, which are categorized into seven subsets, i.e., scientific article (11%), textbook (23%), test paper (22%), magazine (22%), newspaper (11%), note (5.5%), and book (5.5%) according to their content and layouts. It contains three formats: PDF (64%), photographed documents (5%), and scanned documents (31%). The dataset includes a total of 237,116 annotated instances.
+
+
 ## Digital Library of Slovenia
 
 - https://dlib.si/?&language=eng (English website)
