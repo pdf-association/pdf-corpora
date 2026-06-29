@@ -8,7 +8,7 @@
 
 This index references a number of the more significant public corpora (data sets) that may contain both valid and invalid, real and synthetic PDF files, reflecting the realities of processing PDF files 'from the wild'. In addition, targeted test suites for specific PDF features or ISO subsets of PDF are also listed. It is not intended to be a list of every website where PDFs may be obtained.
 
-This informative resource is freely provided to all interested PDF developers, end-users and researchers. It does not reflect an endorsement of any organization, website or corpus. If you currate, maintain or identify other corpora that you believe might be useful to the PDF industry and is freely available please contact us. Some corpora may require registration in order to access.
+This informative resource is freely provided to all interested PDF developers, end-users and researchers. It does not reflect an endorsement of any organization, website or corpus. If you curate, maintain or identify other corpora that you believe might be useful to the PDF industry and is freely available please contact us. Some corpora may require registration in order to access.
 
 
 **CAUTION: like any file downloaded from the internet, good computer security and hygiene practices should always be employed as some of these corpora contain files that are malicious! Use at your own risk!**
@@ -165,7 +165,7 @@ Three sample PDF files containing ISO 19593-1 compliant processing step data (i.
 ## iText Regression Test Suite
 - https://github.com/itext/itext7
 
-Among the iText Java source code is a sizeable corpus of just under 4,000 PDF files provided as the regression test suite for the iText PDF library. The PDF files  are nicely classified as to the PDF feature being tested, including a [good suite of encrypted PDFs](https://github.com/itext/itext7/tree/develop/kernel/src/test/resources/com/itextpdf/kernel/crypto/PdfEncryptionTest) and many others. Each PDF tends to be nice and small for targetted testing of a specific feature with set permutations of PDF keys, values, etc.  
+Among the iText Java source code is a sizeable corpus of just under 4,000 PDF files provided as the regression test suite for the iText PDF library. The PDF files  are nicely classified as to the PDF feature being tested, including a [good suite of encrypted PDFs](https://github.com/itext/itext7/tree/develop/kernel/src/test/resources/com/itextpdf/kernel/crypto/PdfEncryptionTest) and many others. Each PDF tends to be nice and small for targeted testing of a specific feature with set permutations of PDF keys, values, etc.  
 
 ## Asymptote gallery samples
 - https://asymptote.sourceforge.io/gallery/PDFs/index.html: advanced shadings, clips, etc. 
