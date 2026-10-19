@@ -183,6 +183,14 @@ Various small test sets (such as "Fast Web View/Linearization", "PDF Page Elemen
 Two ground-truthed datasets of natively-digital PDF documents containing tables. These documents have been collected systematically from the European Union and US Government websites.
 
 
+## PDF-Haul duplicate page detection corpus
+- https://www.pdfhaul.com/blog/duplicate-detection-challenge
+
+* 19 pages, with a public answer key.
+* The same page produced by different generators, recompressed and rotated copies, and near-identical invoices that should NOT be treated as duplicates.
+* Includes both true duplicates and deliberate near-misses, so it tests false positives as well as misses.
+
+
 ## HisDoc18 (Chinese)
 - https://github.com/SCUT-DLVCLab/HisDoc1B?tab=readme-ov-file 
 - Shi, Y. et al. (January 2025) ‘A large-scale dataset for Chinese historical document recognition and analysis’, Scientific Data, 12(1), p. 169. https://doi.org/10.1038/s41597-025-04495-x.
